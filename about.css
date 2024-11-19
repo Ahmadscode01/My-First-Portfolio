@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'courgete';
+    src: url(Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: 'bebas';
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'days';
+    src: url(DaysOne-Regular.ttf);
+}
+
+body{
+        background-color: #000000;    
+        margin: 0%;
+        padding: 0%;
+        min-width: 50em;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*Body All Paragraphs*/
+body p{
+        font-family: sans-serif;
+        cursor: default;
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*Body All H2 */
+body h2 {
+        text-transform: capitalize;
+}
+/*----------------------------------------------------------------------------------------------------*/
+body:focus{
+        color: yellow;
+}   
+/**/
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+/* Header Section Started */
+#header {
+  
+   /*display: flex;
+   align-items: baseline; 
+   justify-content: space-between; 
+   height: 5em;
+   padding: 0.9em; 
+   padding-bottom: 0em;*/
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*Header H1*/
+/*#header h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    cursor: wait;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}*/
+/*Header Section Ended*/
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+ 
+    /*Hero Section*/
+    #hero{
+        color: white;
+        background-image: url(waves.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 40em;
+    
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+        background-size: cover;
+        min-width: 40em;
+       
+}
+    
+/*----------------------------------------------------------------------------------------------------*/
+/*Hero Section H1*/
+#hero h1{
+        margin: auto;
+        padding-top: 5em;
+        font-size: 2.5em;
+        text-align: center;
+        font-family:courgete;
+        font-stretch: ultra-expanded;
+        text-shadow: 1px 1px 2px black;
+        min-width:0.5em ;
+        
+        
+}
+
+#hero hr{
+        width: 35em;
+        line-height: 2em;
+}
+
+#hero p{
+        font-size: 1.5em;
+        text-align: center;
+        font-family: bebas;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 2px black;
+
+}
+/*----------------------------------------------------------------------------------------------------*/
+
+/*Navigation Section Started*/
+nav{
+   position: absolute;
+   margin-top:1px ;
+   width:100% ;
+   
+}
+nav ul {
+    border: 2px solid #ffffff ;
+    width: 25em;
+    margin: auto;
+    list-style-type: none;
+    border-radius: 2em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    gap: 2em; 
+}
+
+   
+/*----------------------------------------------------------------------------------------------------*/
+/*Navigation Bars [HOME] [ABOUT] [] []*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px black;
+    line-height: 2em;
+    
+}
+/*----------------------------------------------------------------------------------------------------*/
+nav ul li a:hover {
+    padding: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: auto;
+    border-radius: 1em;    
+    border: 1px solid white;
+    background-color: #5a5a5a72;
+}
+/*----------------------------------------------------------------------------------------------------*/
+nav ul li a:active {
+    color: #5a5a5a;
+}
+/*Navigation Section Ended*/
+
+  /*----------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------*/
+    
+    /*About Section Started*/
+    #about{
+        background: transparent;
+        height: 15em;
+        text-shadow: 1px 1px 2px black;
+        border-radius: 10px;
+        color: rgb(161, 161, 161);
+        text-align: center;
+        margin: 2em;
+        
+        max-height: 15em;
+        min-height: 15em;
+       
+}
+/*----------------------------------------------------------------------------------------------------*/
+#about legend{
+        font-size: 2.5em;
+        text-transform: capitalize;
+        text-indent:0.5em ;
+        font-family: days;
+        letter-spacing: 0em;
+        font-weight: bold;
+        color: black;
+        text-shadow: 0px 0px 10px #c400ff,
+                     0px 0px 15px #00d4ff   ;
+        text-align: center;             
+
+}
+/*----------------------------------------------------------------------------------------------------*/
+#about p {
+        
+        font-size:  1.3em; ;
+        text-align: center;
+        f
+        
+        text-transform: capitalize ;
+        line-height: 1.5em;
+        word-spacing: 0.2em;
+        vertical-align:auto;
+        
+          
+}
+/*----------------------------------------------------------------------------------------------------*/
+#about p abbr a{
+        text-decoration: none;
+        color: greenyellow;
+}
+/*----------------------------------------------------------------------------------------------------*/
+#about p abbr a:hover{
+        color: #2dd14a;
+        text-shadow:0px 0px 2px blue ;
+    
+}
+
+#about img{
+         width: 35%;
+         height: auto;
+         
+}
+/*About Section Ended*/
+
+
+#mission{
+        background: transparent;
+        height: 15em;
+        text-shadow: 1px 1px 2px black;
+        border-radius: 10px;
+        color: rgb(161, 161, 161);
+        text-align: center;
+        margin: 2em;
+        
+        max-height: 15em;
+        min-height: 15em;
+}
+
+#mission legend{
+        font-size: 2.5em;
+        text-transform: capitalize;
+        text-indent:0.5em ;
+        font-family: days;
+        letter-spacing: 0em;
+        font-weight: bold;
+        color: black;
+        text-shadow: 0px 0px 10px #c400ff,
+                     0px 0px 15px #00d4ff   ;
+        text-align: center;             
+}
+
+#mission p {
+        font-size:1.3em ;
+        text-align: center;
+        text-transform: capitalize ;
+        line-height: 1.5em;
+        word-spacing: 0.2em;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+footer{
+    background: url(energy.jpg);
+    background-position: center;
+    opacity: 60%;
+    height: 15em;
+    line-height: 3em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer #dots{
+    opacity:0% ;
+}
+
+footer hr{
+    width: 50em;
+}       
