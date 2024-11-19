@@ -1,3 +1,16 @@
+@font-face {
+        font-family: 'courgete';
+        src: url(Courgette-Regular.ttf);
+}
+@font-face {
+        font-family: 'bebas';
+        src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+        font-family: 'days';
+        src: url(DaysOne-Regular.ttf);
+}
+
 body{
             background-color: #000000;    
             margin: 0%;
@@ -61,6 +74,7 @@ body{
        position: absolute;
        margin-top:1em ;
        width:100% ;
+      
        
     }
     nav ul {
@@ -102,20 +116,13 @@ body{
         color: #5a5a5a;
     }
     /*Navigation Section Ended*/
-    
-    
+
     
     /*----------------------------------------------------------------------------------------------------*/
     /*----------------------------------------------------------------------------------------------------*/
     
-    @font-face {
-            font-family: 'courgete';
-            src: url(Courgette-Regular.ttf);
-    }
-    @font-face {
-            font-family: 'bebas';
-            src: url(BebasNeue-Regular.ttf);
-    }
+  
+    
     /*Hero Section*/
     #hero{
             color: white;
@@ -136,7 +143,7 @@ body{
     /*Hero Section H1*/
     #hero h1{
             margin: auto;
-            padding-top: 3em;
+            padding-top: 5em;
             font-size: 2.5em;
             text-align: center;
             font-family:courgete;
@@ -163,15 +170,16 @@ body{
     /*----------------------------------------------------------------------------------------------------*/
     /*Hero Section Button*/
     #hero button {
-            background: linear-gradient( 45deg , rgb(8, 160, 0), rgb(1, 84, 14)) ;    
-            font-size: 1.6em;
-            align-items: center; 
-            margin-top: 5em;
-            padding: 0.5em;
-            border-radius: 14px;
-            border-color: #00ff2f;
-            cursor: pointer;
-            
+        /*background: linear-gradient( 45deg , rgb(8, 160, 0), rgb(1, 84, 14)) ;    
+        font-size: 1.6em;
+        align-items: center; 
+        margin-top: 5em;
+        padding: 0.5em;
+        border-radius: 14px;
+        border-color: #00ff2f;
+        cursor: pointer;*/
+ 
+       
     }
     /*button Hover*/
     #hero button:hover{
@@ -189,36 +197,73 @@ body{
             color: #00ff2f; 
     
     }
-    
+
+    #icons {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        
+
+    }
+    #icons ul {
+        gap: 1px;
+    }
+
+    #icons img{
+        width: 30%;
+        height: 95%;
+        gap: 1px;
+        justify-content: center;
+    }
+
+    #icons img:hover{
+        
+        opacity:70% ;
+
+    }
     
     /*----------------------------------------------------------------------------------------------------*/
     /*----------------------------------------------------------------------------------------------------*/
     
     /*About Section Started*/
     #about{
-        background:linear-gradient(45deg, rgb(128, 128, 128),rgb(52, 52, 52)) ;
-        height: 13em;
+        /*background:linear-gradient(45deg, rgb(128, 128, 128),rgb(52, 52, 52)) ;*/
+        background: transparent;
+        height: 15em;
         text-shadow: 1px 1px 2px black;
         border-radius: 10px;
         color: white;
+        text-align: center;
+        margin: 2em;
+        
+        max-height: 15em;
+        min-height: 15em;
+       
 }
 /*----------------------------------------------------------------------------------------------------*/
-#about h2{
+#about legend{
         font-size: 2.5em;
         text-transform: capitalize;
         text-indent:0.5em ;
+        font-family: days;
+        letter-spacing: 0em;
+        font-weight: bold;
+        color: black;
+        text-shadow: 0px 0px 10px #c400ff,
+                     0px 0px 15px #00d4ff   ;
+        text-align: center;             
 
 }
 /*----------------------------------------------------------------------------------------------------*/
 #about p {
         font-size:1.3em ;
-        font-weight: light ;
-        text-align: left;
-        justify-content: left;
+        text-align: center;
+        justify: left;
         text-transform: capitalize ;
         line-height: 1.5em;
         word-spacing: 0.2em;
-        padding-left: 1em;
+        
+          
 }
 /*----------------------------------------------------------------------------------------------------*/
 #about p abbr a{
@@ -234,173 +279,43 @@ body{
 /*About Section Ended*/
 
 
-
-/*----------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------*/
-
-
-
-/*Projects Section Started*/
-#projects{
-
-        background:linear-gradient(45deg, gray,rgb(52, 52, 52)) ;
-        height: 21em;
+#mission{
+        background: transparent;
+        height: 15em;
         text-shadow: 1px 1px 2px black;
         border-radius: 10px;
         color: white;
-}   
-/*----------------------------------------------------------------------------------------------------*/
-#projects h2{
-        font-size : 3em;
-        text-indent:0.5em ;
+        text-align: center;
+        margin: 2em;
+        
+        max-height: 15em;
+        min-height: 15em;
 }
-/*----------------------------------------------------------------------------------------------------*/
-#projects h3 {
 
-        font-size: 1.5em;
-        letter-spacing: 0.2em ;
-        text-transform: uppercase;
-        text-align: left;
-        text-indent: 1em;
+#mission legend{
+        font-size: 2.5em;
+        text-transform: capitalize;
+        text-indent:0.5em ;
+        font-family: days;
+        letter-spacing: 0em;
+        font-weight: bold;
+        color: black;
+        text-shadow: 0px 0px 10px #c400ff,
+                     0px 0px 15px #00d4ff   ;
+        text-align: center;             
 }
-/*----------------------------------------------------------------------------------------------------*/
-#projects p{
+
+#mission p {
         font-size:1.3em ;
-        font-weight: light ;
-        text-align: left;
-        justify-content: left;
+        text-align: center;
+        justify: left;
         text-transform: capitalize ;
         line-height: 1.5em;
         word-spacing: 0.2em;
-        padding-left: 1em;
-}
-/*----------------------------------------------------------------------------------------------------*/
-#projects #note{
-        word-spacing: 0.1em;
-}
-/*----------------------------------------------------------------------------------------------------*/
-#projects #note b {
-        color: red;
-        font-weight: normal;
-}
-/*----------------------------------------------------------------------------------------------------*/
-#projects a{
-        color: rgba(255, 255, 0, 0.655) ;
-        text-decoration: none;
-        padding-left: 1.5em ;
-        font-family: sans-serif;
-}
-/*----------------------------------------------------------------------------------------------------*/
-#projects a:hover{
-        color: yellow ;
-}
-/*Projects Section Ended*/
-
-
-
-/*----------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------*/
-
-
-
-/*Contact Section Started*/
-#contact{
-        background:linear-gradient(45deg, gray,rgb(52, 52, 52)) ;
-        height: 18em;
-        text-shadow: 1px 1px 2px black;
-        border-radius: 10px;
-        color: white;
-}
-
-#contact h2{
-        font-size : 3em;
-        text-indent:0.5em ;
-}
-
-#contact ul li a{
-        text-decoration: none;
-        color: white ;
-        line-height: 1.5em;
-        font-size: 1.5em;
 }
 
 /*----------------------------------------------------------------------------------------------------*/
-/*Linkdn Section Started*/
-#contact #linkdn{
-        color: #0077b5;
-        font-weight: BOLD;
-}
-
-#contact #linkdn:hover{
-        text-shadow: 1px 1px 2px #FFFFFF,
-                -2px -2px 2px #000000 ;
-}
-/*Linkdn Section Ended*/
-
 /*----------------------------------------------------------------------------------------------------*/
-
-/*Email Section Started*/
-#contact #email{
-        color: #FBBC04;
-        font-weight: bold;
-}
-
-#contact #email:HOVER{
-        color: #FBBC04;
-        text-shadow:2px 2px 2px #EA4335,
-                    -2px -2px 2px #42B5F4,
-                    4px 4px 2px #34A853;
-        font-weight: bold;
-}
-/*Email Section Ended*/
-
-/*----------------------------------------------------------------------------------------------------*/
-
-/*Whatsapp Section Started*/
-#contact #whatsapp{
-        color: #2dd14a;
-        font-weight: bold;
-}
-
-#contact #whatsapp:hover{
-        text-shadow: 1px 1px 2px  rgba(255, 255, 255, 0.167),
-                    -2px -2px 2px #5bf97d65;
-}
-/*Whatsapp Section Ended*/
-
-/*----------------------------------------------------------------------------------------------------*/
-
-/*Facebook Section Started*/
-#contact #facebook{
-        color: #0866FF;
-        font-weight: bold;
-        text-shadow: 1px 1px 2px black;
-}
-
-#contact #facebook:hover{
-        font-weight: bolder;
-        text-shadow: 1px 1px 2px#17aafa,
-                    -2px -2px 2px #83d4f7;
-}
-/*Facebook Section Ended*/
-
-/*----------------------------------------------------------------------------------------------------*/
-
-/*Instagram Section Started*/
-#contact #instagram{
-        color: #D52975;
-        font-weight: bold;
-        text-shadow: 1px 1px 2px black;
-}
-
-#contact #instagram:hover{
-
-        text-shadow: 1px 1px 2px purple ,
-                    -2px -2px 2px #ff7a08;
-}
-/*Instagram Section Ended*/
-
-/*Contact Section Ended*/
 
 
 
