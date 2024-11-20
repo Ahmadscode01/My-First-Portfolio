@@ -125,18 +125,18 @@ body{
     
     /*Hero Section*/
     #hero{
-            color: white;
-            background-image: url(purple&bluebg.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 40em;
-        
-            margin: 0px;
-            padding: 0px;
-            text-transform: capitalize;
-            background-size: cover;
-            min-width: 40em;
-           
+        color: white;
+        background-image: url(purple&bluebg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 40em;
+    
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+        background-size: cover;
+        min-width: 40em;
+
     }
         
     /*----------------------------------------------------------------------------------------------------*/
@@ -262,9 +262,12 @@ body{
         text-transform: capitalize ;
         line-height: 1.5em;
         word-spacing: 0.2em;
+        font-family: serif;
+        color: rgb(161, 161,161 );
+}
         
           
-}
+
 /*----------------------------------------------------------------------------------------------------*/
 #about p abbr a{
         text-decoration: none;
@@ -312,6 +315,8 @@ body{
         text-transform: capitalize ;
         line-height: 1.5em;
         word-spacing: 0.2em;
+        font-family: serif;
+        color: rgb(161, 161,161 );
 }
 
 /*----------------------------------------------------------------------------------------------------*/
@@ -321,35 +326,7 @@ body{
 
 /*----------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------*/
-/*Form*/
-#form{
-         color: white;
-         background:linear-gradient(45deg, gray,rgb(52, 52, 52)) ;
-         text-shadow: 1px 1px 2px black;
-         border-radius: 14px;
-         margin-left: 10em;
-         margin-right: 10em;
-         margin-top: 1em;
-         padding: 2em;
-}
-/*----------------------------------------------------------------------------------------------------*/
-/*Form Submit Button*/
-#form #submit{
-         background: linear-gradient( 45deg , rgb(8, 160, 0), rgb(1, 84, 14)) ;    
-         border-color: #00ff2f;
-         color: white;
-         font-size: 1.5em;
-         margin-left: 0em;
-         padding-left: 5.4em;
-         padding-right: 5.4em;
-         cursor: pointer;
-}
-/*----------------------------------------------------------------------------------------------------*/
-/*Form Submit button Hover*/
-#form #submit:hover{
-    background: linear-gradient( 45deg , rgb(0, 0, 0), rgb(1, 84, 14)) ; 
-    color: #00ff2f; 
-}
+
 
 /*----------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------*/
@@ -372,6 +349,8 @@ footer #dots{
 footer hr{
         width: 50em;
 }       
+
+       
 
     
     
