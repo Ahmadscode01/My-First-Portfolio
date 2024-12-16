@@ -5,69 +5,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmeds - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="croped-cartoon-standing.png" type="png">
+    <link rel="shortcut icon" href="portfolio.png" type="png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
     
-<div id="header">
 
-    
-<nav>
 
-    <ul>
 
-        <li><a href="#home">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        
-    </ul>
 
-</nav>
-
-</div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed bg-opacity-50 vw-100 w-100%" id="navbar" >
+      
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#hero">Portfolio</a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse "  id="navbarScroll" >
+         
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;" id="nav">
+           
+              <li class="nav-item">
+                 <a class="nav-link active" hover-white aria-current="page" href="#hero">Home</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+             
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"></a>
+              </li>
  
+              
+              
+            </ul>
+            <div class="icons">
+              <a href="https://www.linkedin.com/in/muhammad-ahmad-raza-soomro-012867327/" target="_blank"><img src="linkedin.png" alt=""></a>
+              <a href="https://github.com/Ahmadscode01" target="_blank"><img src="github.png" alt=""></a>
+              <a href="mailto:m.ahmad786raza@gmail.com" target="_blank"><img src="gmail-logo.png" alt=""></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt=""></a>
+              <a href="https://www.instagram.com/itx_mars/profilecard/?igsh=a2sxcjllNTMzemJp" target="_blank"><img src="instagram.png" alt=""></a>
+            </div>
+            
+            
+          </div>
+        </div>
+      </nav>
 
 
-<div id="hero">
 
-<h1><b>Hi!</b> Let’s Create Something Amazing Together</h1>
-<hr>
-<p>Turning Ideas into Code!</p>
-   
+<div class="hero" id="hero">
+
+<h1 class="heroh1"><b>Hello!</b> I’m Ahmed, a Certified Web Developer.</h1>
+<br>
+<p class="herop">Turning Ideas into Code!</p>
+
 </div>
 
 
 
-<div id="about">
-   <fieldset>
-    <legend>about me</legend>
+<div class="line" id="about">
+ <h1></h1>
+</div>
+
+
+<div class="about">
+   
+    <h1>Who I Am ?</h1>
+    <br>
     <p>Hello, I’m Muhammad Ahmed Raza Soomro. I’m currently learning web development at <abbr title="Saylani Mass Information Technology"><a href="https://saylaniwelfareusa.com/services/education/technical-education/saylani-mass-it-training" target="_blank">SMIT</a></abbr>. I have a strong interest in technology and programming languages, and I’m excited to grow my skills and create meaningful projects as I continue to learn.
     </p>
-</fieldset>
+
 </div>
 
 
 
-<div id="mission">
-    <fieldset>
-        <legend>Mission</legend>
+<div class="mission">
+
+        <h1>Mission</h1>
+        <br>
         <p>My mission is to turn your ideas into code and make sure you're completely satisfied with the results.</p>
-    </fieldset>
 </div>
 
 
+<div class="line" id="about">
+  <h1></h1>
+ </div>
 
 
+<div class="cards" id="projects">
 
+   
+
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+     
+     <a href="https://ahmadscode01.github.io/AhmedsWeb/" target="_blank"> <img src="firstweb.png" class="card-img-top" alt="..."></a>
+     
+      <div class="card-body">
+        <h5 class="card-title">Ahmeds Web</h5>
+        <p class="card-text">It was my first website, developed for an assignment. It's very simple. It was the start of my journey into web development.</p>
+      </div>
+
+      <div class="card-footer">
+        <small class="text-body-secondary">Responsive </small>
+      </div>
+   
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+     
+      <a href="https://ahmadscode01.github.io/AppleClone/" target="_blank"><img src="appleweb.png" class="card-img-top" alt="..."></a>
+     
+      <div class="card-body">
+        <h5 class="card-title">Apple Web</h5>
+        <p class="card-text">This Apple web clone was developed by me as a practice project. It's currently not responsive.</p>
+      </div>
+      
+      <div class="card-footer">
+        <small class="text-body-secondary">Not Responsive</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+     
+      <a href="https://ahmadscode01.github.io/Dubai-woods/" target="_blank"><img src="dubaiwood.png" class="card-img-top" alt="..."></a>
+      
+      <div class="card-body">
+        <h5 class="card-title">Dubai Woodworks</h5>
+        <p class="card-text">This website is for my client, and there are more updates coming soon. It still requires improvements to meet the needs and expectations. Stay tuned for future enhancements!</p>
+      </div>
+
+      <div class="card-footer">
+        <small class="text-body-secondary">Responsive</small>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<script>// When the user scrolls down 20px from the top of the document, slide down the navbar
+  // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+  
+
+  </script>
 
 
 
 <footer>
-<p id="dots">.......</p>
-    <hr>
     <p>&copy; 2024 Muhammad Ahmed Raza Soomro. All Rights Reserved.</p>
+    <br>
+    <p>Version 3.2.0</p>
+
+
 </footer>
 
 </body>
